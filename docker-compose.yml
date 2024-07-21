@@ -6,10 +6,9 @@ services:
     command: bash start.sh
     restart: on-failure
     ports:
-     - "256:256"
-      - "4928:4928"
-      - "2569:2569"
-      - "8092:8092" 
+      - "3427:80"
+      - "8324:8080"
+      - "4344:8090"
 
 networks:
   default:
